@@ -118,7 +118,7 @@ function checaRenovacaoRG() {
   // implemente sua lógica aqui
   let mensagemDeAnoAtual1 = +prompt("Qual ano estamos");
   let mensagemDeNascimento1 = +prompt("Qual é o ano que você nasceu?");
-  let mensagemDeRg = +prompt("Qual é o ano da emissão da identidade?")
+  let mensagemDeRg = +prompt("Qual é o ano da emissão da identidade?");
   let idade1 = mensagemDeAnoAtual1 - mensagemDeNascimento1
   let diferenca = mensagemDeAnoAtual1 - mensagemDeRg
 
@@ -132,11 +132,21 @@ function checaRenovacaoRG() {
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
-let bissexto 
+  let anoBissexto = ano % 400 === 0;
+  let anoBissexto01 = (ano % 4 === 0) && (ano % 100 !== 0)  
+return anoBissexto || anoBissexto01
 }
-
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+let mensagemIdade = prompt("tem mais de 18 anos?");
+let mensagemEnsinoMedio = prompt("tem ensino médio completo?");
+let messagemDisponibilidade = prompt("tem disponibilidade de horários?");
+
+if(mensagemIdade === "sim" && mensagemEnsinoMedio === "sim" && messagemDisponibilidade === "sim"){
+  console.log(true)
+}else{
+  console.log(false)
+}
 
 }
