@@ -21,4 +21,4 @@ if(process.argv[2] && +process.argv[3]){
     console.log(mensagem)
 }else{
     console.log("\u001b[31m Esperava 2 parâmetros, so recebi um.")
-}
+};;
