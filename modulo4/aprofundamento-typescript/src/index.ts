@@ -214,4 +214,4 @@
 
 //Exercício extra
 
-//a) A versão no target es5, tem forceConsistentCasingInFileName e Strict.;;
+//a) A versão no target es5, tem forceConsistentCasingInFileName e Strict.
